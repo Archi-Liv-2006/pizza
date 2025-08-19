@@ -1,0 +1,792 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-weight: 500;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+li {
+  list-style: none;
+}
+.pizza {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px grey;
+  background-color: azure;
+  margin-top: 1em;
+  margin-right: 7em;
+}
+ul {
+  display: flex;
+  gap: 2em;
+}
+.space {
+  margin-right: 1.5em;
+}
+ul li {
+  margin-top: 0.5em;
+}
+.logo {
+  margin-left: 5em;
+}
+.same {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.healthy {
+  margin-left: 5em;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+}
+
+.healthy p {
+  padding-bottom: 2em;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 9em;
+  font-size: 4em;
+  font-weight: bolder;
+  padding-bottom: 0.5em;
+}
+.easy {
+  font-size: medium;
+  font-weight: bold;
+}
+.yellow {
+  color: orange;
+}
+.search {
+  border: none;
+  color: white;
+  background-color: black;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 1em;
+  font-weight: bold;
+}
+.find {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+  width: 80%;
+}
+.hero {
+  width: 100%;
+  margin-left: 50%;
+  margin-bottom: 2em;
+  position: relative;
+}
+.hero-1 {
+  display: flex;
+  width: 100%;
+  gap: 0.5em;
+  padding-top: 2em;
+}
+.one {
+  max-height: 150px;
+  width: 150px;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  margin-right: 5px;
+  gap: 2em;
+  margin-top: 2em;
+  height: 34%;
+}
+.circle-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: none;
+  background-color: rgb(243, 237, 237);
+  box-shadow: 0.5px 0.5px 0.5px gray;
+  border-radius: 20px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+.circular {
+  width: 55px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+}
+.circular img {
+  object-fit: contain;
+  width: 50%;
+  height: 100%;
+}
+.circle-item {
+  width: 25%;
+  padding-top: 2em;
+  font-weight: bold;
+}
+.center {
+  margin-left: 40%;
+  margin-bottom: 7em;
+}
+.center p {
+  font-size: 4em;
+  font-weight: bold;
+}
+.center h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 5em;
+  margin-bottom: 2em;
+}
+.chicken-pizza {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.05);
+}
+.chicken-pizza p:hover {
+  color: orange;
+
+  border-bottom: 2px solid orange;
+}
+.divider {
+  width: 90%;
+  margin: 10px auto 40px;
+  border: 1px solid grey;
+}
+.chicken-pizza p {
+  font-weight: bold;
+  font-size: 2em;
+}
+.margherita {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}
+.margherita-1 {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.05);
+  padding-bottom: 0.5em;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.Pepperoni div {
+  font-size: 100;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+.Pepperoni p {
+  margin-left: 2em;
+  font-weight: bolder;
+  font-size: larger;
+}
+h4 {
+  padding-top: 0.5em;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+.hawaian {
+  width: 250px;
+}
+.Pepperoni {
+  margin-left: 1em;
+  color: #000;
+}
+.add {
+  border: 2px solid black;
+  margin-top: 1.5em;
+  padding-right: 30%;
+  padding-left: 30%;
+  padding-bottom: 10%;
+  padding-top: 1em;
+  color: antiquewhite;
+  background-color: #000;
+  font-size: medium;
+  font-weight: bold;
+}
+.more {
+  background-color: orange;
+  color: aliceblue;
+  border: none;
+  border-radius: 4px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 43%;
+  margin-top: 3em;
+}
+.container {
+  display: flex;
+  gap: 2em;
+  margin-top: 10%;
+}
+
+.left-column {
+  margin-left: 4em;
+}
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.border {
+  border: 1px solid black;
+  background-color: rgb(0, 0, 0, 0.05);
+  border: none;
+  width: fit-content;
+  padding-left: 3em;
+  padding-bottom: 2em;
+  height: fit-content;
+}
+
+.part {
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  padding-bottom: 3em;
+  padding-top: 2em;
+  margin-top: 4em;
+  width: 70%;
+}
+.text {
+  margin-left: 1em;
+}
+.why-us {
+  margin-left: 2em;
+}
+.paragraph {
+  color: orange;
+  font-weight: bolder;
+}
+
+.right-column p {
+  font-size: x-large;
+  width: 80%;
+  font-weight: lighter;
+}
+
+.right-column h5 {
+  font-size: 2em;
+  font-weight: bolder;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.text p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 90%;
+  padding-top: 1em;
+  color: gray;
+}
+.fresh {
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-left: 1em;
+}
+.fresh img {
+  width: 30px;
+  object-fit: contain;
+  height: 30px;
+}
+.need {
+  margin-left: 20%;
+  margin-bottom: 2em;
+  font-weight: bold;
+}
+.help {
+  margin-left: 24%;
+  color: orange;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+.team {
+  font-size: 4em;
+  font-weight: bolder;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.email-container {
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.09);
+  background-color: gray;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.email-container img {
+  width: 30px;
+  object-fit: contain;
+  margin: 1em;
+}
+.row {
+  margin-bottom: 16%;
+  margin-top: 3em;
+}
+.group-1 {
+  width: 30%;
+  padding-bottom: 4em;
+  gap: 2em;
+  background-color: rgb(248, 244, 244);
+}
+.word {
+  margin-top: 1em;
+}
+.lastly {
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.lastly p {
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.lastly-1 {
+  margin-top: 4em;
+  margin-left: 6em;
+}
+.lastly-1 p {
+  margin-top: 2em;
+}
+.lastly-1images {
+  display: flex;
+  justify-content: space-evenly;
+}
+.png {
+  width: 50px;
+
+  margin-top: 3em;
+}
+.lastly-2 {
+  margin-top: 4em;
+}
+.lastly-2 ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 5em;
+}
+.lastly-2 li {
+  color: white;
+}
+.lastly-3 {
+  margin-top: 4em;
+}
+.lastly-3 p {
+  width: 70%;
+}
+.inputs {
+  margin-top: 4em;
+  border: none;
+}
+.our-email {
+  padding-right: 25%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border-radius: 7px;
+
+  width: 50%;
+}
+.subscribe {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-right: 3em;
+  padding-left: 2em;
+  background-color: orange;
+  color: white;
+  border-radius: 7px;
+}
+@media (max-width: 360px) {
+  p {
+    font-size: 10px;
+  }
+
+  .logo {
+    width: 50px;
+    margin-left: 15%;
+    margin-right: 2%;
+  }
+  nav {
+    font-size: 10px;
+  }
+  .same {
+    padding-right: 1%;
+    padding-left: 1px;
+    font-size: 10px;
+  }
+  .icon {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .space {
+    width: 20px;
+    height: 20px;
+  }
+  .easy {
+    font-size: smaller;
+  }
+
+  .healthy {
+    margin-left: 2%;
+    width: 40%;
+  }
+  .healthy h1 {
+    font-size: 30px;
+    width: 30%;
+  }
+  .healthy p {
+    width: 60%;
+  }
+  .hero {
+    margin-left: 0%;
+    width: 20%;
+    margin-right: 2%;
+  }
+  .hero-1 {
+    width: 100%;
+  }
+  .hero img {
+    width: 160px;
+    margin-left: 0em;
+  }
+  .hero-1 {
+    width: 50%;
+  }
+  .hero-1 img {
+    width: 32px;
+    height: 32px;
+  }
+  .type-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1em;
+    width: 90%;
+  }
+  .find {
+    width: 8em;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 150%;
+  }
+  .circle-1 {
+    margin-left: 0 auto;
+  }
+  .circular {
+    margin: 0 auto;
+  }
+
+  .circle-item {
+    margin: 0 auto;
+  }
+  .center {
+    margin-left: 25%;
+  }
+  .center h3 {
+    font-size: small;
+  }
+  .center p {
+    font-size: 3em;
+  }
+  .chicken-pizza {
+    gap: 2em;
+    padding-left: 1%;
+  }
+  .chicken-pizza p {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .margherita {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 2em;
+  }
+  .why-us {
+    margin-right: 3%;
+    margin-left: 2%;
+  }
+  .left-column img {
+    display: none;
+  }
+  .border {
+    width: 85%;
+    margin-right: 60%;
+    margin-left: 0%;
+  }
+  .help {
+    margin-right: 2em;
+  }
+  .part {
+    width:91%;
+    margin-right: 50%;
+  }
+  .left-column {
+    margin-left: 0%;
+  }
+  .part-2 {
+    margin-left: 3em;
+  }
+  .lastly-1 {
+    margin-left: 2%;
+  }
+  .pizzara {
+    width: 100px;
+  }
+  .lastly p {
+    font-size: medium;
+  }
+  .lastly-photo {
+    width: 100px;
+  }
+  .lastly-photo img{
+    width: 21px;
+  }
+  .lastly-2{
+    margin-left: 1em;
+    margin-right: 0.5em;
+  }
+  .lastly-2 ul {
+    font-size: smaller;
+    margin-top: 1%;
+    
+  }
+  .inputs{
+    width: 100%;
+    display: flex;
+  }
+  .our-email{
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: small;
+  }
+  .subscribe{
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+  .text p{
+    padding-right: 2em;
+  }
+}
+@media(max-width:375px){
+  .part-2{
+    margin-left: 2%;
+  }
+
+}
+@media(max-width:810px){
+ .logo{
+  margin-right: 2em;
+ }
+ .pizza ul{
+  margin-right: 2em;
+ }
+ .space{
+  margin-right: 2em;
+ }
+  .icon{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icon{
+    margin-right: 1em;
+  }
+  h1{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .healthy{
+    width: 50%;
+    
+    margin-left: 2em;
+  }
+  .hero{
+    margin-left: 0%;
+  }
+  .device-width{
+    width: 300px;
+    
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-1 img{
+    width: 80px;
+    
+  }
+  .center h3{
+    margin-right: 5em;
+    margin-left: 2%;
+  }
+  .center p{
+    margin-left: 3%;
+    margin-right: 2%;
+    width: 100%;
+  }
+  .chicken-pizza{
+    padding-left: 3%;
+    font-size: medium;
+    gap: 1.5em;
+
+  }
+  .margherita{
+    gap: 0.5em;
+    margin-left: 0%;
+    margin-right: 1%;
+  }
+  .margherita-1{
+    width: 60%;
+    margin-left: 1em;
+  }
+  .part-2{
+    margin:0%;
+  }
+  .hawaian{
+    width: 90%;
+  }
+  .left-column img{
+    width: 100%;
+    height: 100%;
+    margin-left: 1em;
+  }
+}
+@media(max-width:412px){
+  .logo{
+    margin-left: 0%;
+    width: 100px;
+  }
+  nav ul{
+    font-size: x-small;
+    font-weight: bold;
+    margin-right: 1em;
+    
+  }
+  .hero{
+    display: none;
+  }
+  .row{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10em;
+  }
+  .margherita{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .left-column{
+    margin-left: 2%;
+  }
+  .left-column img {
+    display: none;
+  }
+  .border{
+    width: 90%;
+    margin-top: 2em;
+  }
+  .part{
+    width: 80%;
+  }
+  .margherita{
+    margin-left: 15%;
+  }
+  .group-1{
+    margin-left: 20%;
+    padding-right:55%;
+    padding-left: 20%;
+  }
+.lastly{ 
+  gap: 2em;
+  width: 105%;
+}
+  
+  .lastly-1{
+    margin-left: 0%;
+    
+  }
+  .lastly-1 img{
+width:100px;
+}
+.lastly-1 p{
+  font-size: medium;
+}
+.lastly-2 p{
+  font-size: medium;
+}
+.lastly-2 ul{
+  font-size: medium;
+}
+.lastly-3 p{
+  font-size: medium;
+}
+.lastly-photo{
+  width: 70%;
+}
+.lastly-photo img{
+width: 30px;
+}
+.subscribe{
+  padding: 1em;
+
+}
+.our-email{
+  padding: 1em;
+}
+.help{
+  margin-right: 2em;
+}
+.chicken-pizza p{
+  font-size: x-small;
+  font-weight: bolder;
+}
+.center {
+  margin-left: 25%;
+}
+}
